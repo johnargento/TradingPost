@@ -1,0 +1,31 @@
+mon = peripheral.wrap("right")
+mon.clear()
+mon.setTextColor(colors.black)
+mon.setTextScale(1)
+mon.setCursorPos(2,2)
+mon.write("WELCOME TO THE TRADING POST")
+ 
+mon.setTextScale(1)
+mon.setCursorPos(1,4)
+mon.setTextColor(colors.black)
+mon.write("If you would like:")
+ 
+mon.setTextScale(1)
+mon.setCursorPos(1,5)
+mon.setTextColor(colors.purple)
+mon.write("-FOOD, then see comp. #1")
+ 
+mon.setTextScale(1)
+mon.setCursorPos(1,6)
+mon.setTextColor(colors.purple)
+mon.write("-VALUABLES, then see comp. #2")
+ 
+mon.setTextScale(1)
+mon.setCursorPos(1,7)
+mon.setTextColor(colors.purple)
+mon.write("-WOOD, then see comp. #3")
+ 
+mon.setTextScale(1)
+mon.setCursorPos(1,8)
+mon.setTextColor(colors.purple)
+mon.write("-BLOCKS, then see comp. #4")
