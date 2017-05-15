@@ -1,0 +1,19 @@
+print("Welcome To The Trading Post!")
+ 
+print("Here You Can Buy, Diamonds, Emeralds, Gold, Iron, EnderPearls, Redstone, Coal, and Lapis Lazuli!")
+ 
+print("The Cost Of 1 Diamond Block is 16 Gold")
+ 
+print("The Cost of 1 Emerald Block is 16 Diamonds")
+ 
+print("The Cost of 1 Gold Block is 16 Iron")
+ 
+print("The Cost of 1 Iron Block is 16 Coal")
+ 
+print("The Cost of 1 EnderPearl is 4 Diamonds")
+ 
+print("The Cost of 1 Lapis Block is 16 Redstone")
+ 
+print("The Cost of 1 Redstone Block is 16 Lapis")
+ 
+print("The Cost of 1 Coal Block is 32 Cobblestone")
