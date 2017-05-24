@@ -1,0 +1,17 @@
+local function diamonds()
+  for x = 1, 9 do
+    turtle.suck()
+    if turtle.detect() = "minecraft:diamond" then
+      do turtle.select( 2 )
+      turtle.drop()
+    end
+end
+ 
+local function emerald()
+  for y = 1, 9 do
+    turtle.suck()
+  if turtle.detect() == "minecraft:emerald" then
+   do turtle.select( 3 )
+   turtle.drop()
+  end
+end
