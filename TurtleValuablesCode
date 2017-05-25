@@ -1,0 +1,59 @@
+function diamonds()
+  for x = 1, 9 do
+    turtle.suck()
+  end
+  for b = 1, 16 do
+    if turtle.detect() == "minecraft:diamond" then
+      turtle.select( 1 )
+      turtle.drop()
+  end
+end
+end
+ 
+function emerald()
+  for y = 1, 9 do
+    turtle.suck()
+  end
+  for c = 1, 16 do
+    if turtle.detect() == "minecraft:emerald" then
+      turtle.select( 2 )
+      turtle.drop()
+  end
+end
+end  
+ 
+function gold()
+  for z = 1, 9 do
+    turtle.suck()
+  end
+  for d = 1, 16 do
+    if turtle.detect() == "minecraft:gold" then
+      turtle.select( 3 )
+      turtle.drop()
+   end
+end
+end
+   
+function iron()
+  for a = 1, 9 do
+    turtle.suck()
+  end
+  for g = 1, 16 do
+    if turtle.detect() == "minecraft:iron" then
+      turtle.select( 4 )
+      turtle.drop()
+  end
+end  
+end  
+   
+function enderpearl()
+  for e = 1, 9 do
+   turtle.suck()
+  end
+  for f = 1, 32 do
+   if turtle.detect() == "minecraft:ender_pearl" then
+     turtle.select( 5 )
+     turtle.drop()
+  end
+end
+end
