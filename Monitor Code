@@ -1,14 +1,13 @@
-
 mon = peripheral.wrap("right")
 mon.clear()
-mon.setTextColor(colors.black)
+mon.setTextColor(colors.white)
 mon.setTextScale(1)
 mon.setCursorPos(2,2)
 mon.write("WELCOME TO THE TRADING POST")
  
 mon.setTextScale(1)
 mon.setCursorPos(1,4)
-mon.setTextColor(colors.black)
+mon.setTextColor(colors.white)
 mon.write("If you would like:")
  
 mon.setTextScale(1)
@@ -30,3 +29,21 @@ mon.setTextScale(1)
 mon.setCursorPos(1,8)
 mon.setTextColor(colors.purple)
 mon.write("-BLOCKS, then see comp. #4")
+ 
+mon.setTextScale(1)
+mon.setCursorPos(1,9)
+mon.setTextColor(colors.purple)
+mon.write("-WOOL, then see comp. #5")
+ 
+mon.setTextScale(1)
+mon.setCursorPos(1,10)
+mon.setTextColor(colors.purple)
+mon.write("-UTILITIES, then see comp. #6")
+ 
+mon.setCursorPos(3,12)
+mon.setTextColor(colors.white)
+mon.write("Enter *ls startup* on any")
+ 
+mon.setCursorPos(3,13)
+mon.setTextColor(colors.white)
+mon.write("computer to start trading!")
