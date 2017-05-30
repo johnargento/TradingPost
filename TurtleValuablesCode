@@ -51,8 +51,32 @@ function enderpearl()
    turtle.suck()
   end
   for f = 1, 32 do
-   if turtle.detect() == "minecraft:ender_pearl" then
+    if turtle.detect() == "minecraft:ender_pearl" then
      turtle.select( 5 )
+     turtle.drop()
+  end
+end
+end  
+   
+function lapis()
+  for h = 1, 9 do
+    turtle.suck()
+  end
+  for i = 1, 16 do
+    if turtle.detect() == "minecraft:redstone" then
+     turtle.select( 6 )
+     turtle.drop()
+  end
+end
+end
+ 
+function redstone()
+  for j = 1, 16 do
+    turtle.suck()
+  end
+  for k = 1, 16 do
+    if turtle.detect() == "minecraft:dye" then
+     turtle.select( 7 )
      turtle.drop()
   end
 end
