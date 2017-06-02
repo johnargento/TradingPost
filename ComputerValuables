@@ -1,3 +1,5 @@
+--This is a code to go on a computer and broadcast specific details
+
 print("Welcome To The Trading Post!")
  
 print("Here You Can Buy, Diamonds, Emeralds, Gold, Iron, EnderPearls, Redstone, Coal, and Lapis Lazuli!")
