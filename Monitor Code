@@ -1,3 +1,5 @@
+--This is a code for my monitor
+--It is meant for the customer to be guided into the right place
 mon = peripheral.wrap("right")
 mon.clear()
 mon.setTextColor(colors.white)
@@ -10,31 +12,37 @@ mon.setCursorPos(1,4)
 mon.setTextColor(colors.white)
 mon.write("If you would like:")
  
+--This is indicating that "food" is on computer 1
 mon.setTextScale(1)
 mon.setCursorPos(1,5)
 mon.setTextColor(colors.purple)
 mon.write("-FOOD, then see comp. #1")
  
+--This is indicating that "valuables" is on computer 2
 mon.setTextScale(1)
 mon.setCursorPos(1,6)
 mon.setTextColor(colors.purple)
 mon.write("-VALUABLES, then see comp. #2")
  
+--This is indicating that "wood" is on computer 3
 mon.setTextScale(1)
 mon.setCursorPos(1,7)
 mon.setTextColor(colors.purple)
 mon.write("-WOOD, then see comp. #3")
  
+--This is indicating that "blocks" is on computer 4
 mon.setTextScale(1)
 mon.setCursorPos(1,8)
 mon.setTextColor(colors.purple)
 mon.write("-BLOCKS, then see comp. #4")
  
+--This is indicating that "wool" is on computer 5
 mon.setTextScale(1)
 mon.setCursorPos(1,9)
 mon.setTextColor(colors.purple)
 mon.write("-WOOL, then see comp. #5")
  
+--This is indicating that "utilities" is on computer 6
 mon.setTextScale(1)
 mon.setCursorPos(1,10)
 mon.setTextColor(colors.purple)
