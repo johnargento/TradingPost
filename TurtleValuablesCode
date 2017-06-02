@@ -1,3 +1,4 @@
+--Function diamonds() is my function that sucks in diamonds and drops slot 1
 function diamonds()
   for x = 1, 9 do
     turtle.suck()
@@ -10,6 +11,7 @@ function diamonds()
 end
 end
  
+ --Function emerald() is my function that sucks in emeralds and drops slot 2
 function emerald()
   for y = 1, 9 do
     turtle.suck()
@@ -22,6 +24,7 @@ function emerald()
 end
 end  
  
+--Function gold() is my function that sucks in gold and drops slot 3
 function gold()
   for z = 1, 9 do
     turtle.suck()
@@ -34,6 +37,7 @@ function gold()
 end
 end
    
+--Function iron() is my function that sucks in iron and drops slot 4
 function iron()
   for a = 1, 9 do
     turtle.suck()
@@ -46,6 +50,7 @@ function iron()
 end  
 end  
    
+--Functions enderpearl() is my function that sucks in enderpearls and drops slot 5
 function enderpearl()
   for e = 1, 9 do
    turtle.suck()
@@ -58,6 +63,7 @@ function enderpearl()
 end
 end  
    
+--Function lapis() is my function that sucks in lapis and drops slot 6
 function lapis()
   for h = 1, 9 do
     turtle.suck()
@@ -69,7 +75,8 @@ function lapis()
   end
 end
 end
- 
+
+--Function redstone() is my function that sucks in redsrtone and drops slot 7
 function redstone()
   for j = 1, 16 do
     turtle.suck()
