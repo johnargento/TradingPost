@@ -4,9 +4,10 @@ function diamonds()
     turtle.suck()
   end
   for b = 1, 16 do
-    if turtle.detect() == "minecraft:diamond" then
-      turtle.select( 1 )
-      turtle.drop()
+   local data = turtle.getItemDetail(1)
+      if data then
+        turtle.select(1)
+        turtle.drop(4)
   end
 end
 end
@@ -17,9 +18,10 @@ function emerald()
     turtle.suck()
   end
   for c = 1, 16 do
-    if turtle.detect() == "minecraft:emerald" then
-      turtle.select( 2 )
-      turtle.drop()
+    local data = turtle.getItemDetail(2)
+      if data then
+        turtle.select(2)
+        turtle.drop()
   end
 end
 end  
@@ -30,9 +32,10 @@ function gold()
     turtle.suck()
   end
   for d = 1, 16 do
-    if turtle.detect() == "minecraft:gold" then
-      turtle.select( 3 )
-      turtle.drop()
+    local data = turtle.getItemDetail(3)
+      if data then
+        turtle.select(3)
+        turtle.drop()
    end
 end
 end
@@ -43,9 +46,11 @@ function iron()
     turtle.suck()
   end
   for g = 1, 16 do
-    if turtle.detect() == "minecraft:iron" then
-      turtle.select( 4 )
-      turtle.drop()
+   local data = turtle.getItemDetail(4)
+      if data then
+        turtle.select(4)
+        turtle.drop()
+
   end
 end  
 end  
@@ -56,9 +61,10 @@ function enderpearl()
    turtle.suck()
   end
   for f = 1, 32 do
-    if turtle.detect() == "minecraft:ender_pearl" then
-     turtle.select( 5 )
-     turtle.drop()
+     local data = turtle.getItemDetail(5)
+      if data then
+        turtle.select(5)
+        turtle.drop()
   end
 end
 end  
@@ -69,9 +75,10 @@ function lapis()
     turtle.suck()
   end
   for i = 1, 16 do
-    if turtle.detect() == "minecraft:redstone" then
-     turtle.select( 6 )
-     turtle.drop()
+     local data = turtle.getItemDetail(6)
+      if data then
+        turtle.select(6)
+        turtle.drop()
   end
 end
 end
@@ -82,9 +89,10 @@ function redstone()
     turtle.suck()
   end
   for k = 1, 16 do
-    if turtle.detect() == "minecraft:dye" then
-     turtle.select( 7 )
-     turtle.drop()
+     local data = turtle.getItemDetail(7)
+      if data then
+        turtle.select(7)
+        turtle.drop()
   end
 end
 end
